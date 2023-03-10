@@ -1,5 +1,5 @@
 # Ignore some config files/dir
-config/vault_password
+config/.vault_password
 config/ssh_config
 config/ansible.log
 
