@@ -1,7 +1,7 @@
 # Ignore some config files/dir
 config/vault_password
 config/ssh_config
-config/ansible_project_hetzner.log
+config/ansible.log
 
 # Ignore upstream code directory
 roles/*
@@ -25,6 +25,7 @@ collections/*
 ### Visual Studio Code / Intellij IDEA Project Files
 .vscode
 .idea
+.code-workspace
 
 # MacOS cruft
 .DS_Store
