@@ -15,17 +15,17 @@ collections/*
 *.rpm
 
 ### Password file
-.vaultid
-.secret
+*.vaultid
+*.secret
 
 ### Vagrant project files
-.vagrant
-.vagrant.d
+*.vagrant
+*.vagrant.d
 
 ### Visual Studio Code / Intellij IDEA Project Files
-.vscode
-.idea
-.code-workspace
+*.vscode
+*.idea
+*.code-workspace
 
 # MacOS cruft
 .DS_Store
