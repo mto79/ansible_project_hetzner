@@ -1,0 +1,32 @@
+---
+# ansible_playbook_system_host/inventories/dev/linux.yml
+# Author: MTO 
+# Description: Inventory file dev for ansible_playbook_host
+#
+kernel_settings_sysctl:
+  - name: net.ipv6.conf.all.disable_ipv6
+    value: 1
+  - name: net.ipv6.conf.default.disable_ipv6
+    value: 1
+  - name: net.ipv6.conf.lo.disable_ipv6
+    value: 1
+
+system_upgrade_all: "false"
+system_upgrade_bugfix: "true"
+system_upgrade_security: "true"
+system_upgrade_only: "true"
+system_upgrade_release: "false"
+system_upgrade_release_version: ""
+
+selinux_policy: targeted
+selinux_state: enforcing
+
+timesync_ntp_servers:
+  - hostname: 0.europe.pool.ntp.org 
+    maxpoll: 6
+  - hostname: 1.europe.pool.ntp.org 
+    maxpoll: 6
+  - hostname: 2.europe.pool.ntp.org 
+    maxpoll: 6
+  - hostname: 3.europe.pool.ntp.org 
+    maxpoll: 6

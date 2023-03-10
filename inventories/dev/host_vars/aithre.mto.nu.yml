@@ -1,0 +1,23 @@
+---
+network_provider: nm
+network_connections:
+  - name: enp62s0u1u4
+    persistent_state: present  
+    type: ethernet
+    autoconnect: yes
+    mac: d8:9e:f3:ee:8b:6d
+    ip: 
+      dhcp4: no
+      gateway4: 192.168.178.1
+      address:
+        - 192.168.178.200/24
+      dns:
+        - 84.116.46.21
+        - 84.116.46.20
+      auto6: no
+network_allow_restart: yes
+
+system_domain: mto.nu
+system_name: aithre
+
+...

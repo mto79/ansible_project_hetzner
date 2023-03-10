@@ -1,0 +1,34 @@
+# Ignore some config files/dir
+config/var/*
+config/ansible.log
+config/known_hosts
+ansible.log
+
+# Ignore upstream code directory
+roles/*
+!roles/requirements.yml
+collections/*
+!collections/requirements.yml
+
+# Ignore generic files
+*.pyc
+*.tar.gz
+*.rpm
+
+### Password file
+.vaultid
+.secret
+
+### Vagrant project files
+.vagrant
+.vagrant.d
+
+### Visual Studio Code / Intellij IDEA Project Files
+.vscode
+.idea
+
+# MacOS cruft
+.DS_Store
+
+### Ansible
+*.retry

@@ -1,0 +1,19 @@
+[boreas]
+boreas.mto.lan
+
+[linux]
+boreas.mto.lan
+
+[ovirt-node1]
+ovirt-node1.mto.local
+
+
+
+# # Other useful arguments
+# ######################################
+# ansible_host=<ip>,<hostname>
+# ansible_user=<user>
+# ansible_connection=ssh,local,docker
+# ansible_ssh_private_key_file=
+# ansible_port=
+# ansible_ssh_extra_args=
