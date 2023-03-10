@@ -1,8 +1,7 @@
 # Ignore some config files/dir
-config/var/*
-config/ansible.log
-config/known_hosts
-ansible.log
+config/vault_password
+config/ssh_config
+config/ansible_project_hetzner.log
 
 # Ignore upstream code directory
 roles/*
