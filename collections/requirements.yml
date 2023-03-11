@@ -5,3 +5,9 @@
 #
  collections:
   - name: ansible.posix
+  - name: ansible.utils
+  - name: community.general
+
+  - name: https://github.com/mto79/ansible_collection_mto79.hetzner.git
+    type: git
+    version: main

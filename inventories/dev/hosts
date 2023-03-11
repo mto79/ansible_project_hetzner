@@ -1,12 +1,3 @@
-[boreas]
-boreas.mto.lan
-
-[linux]
-boreas.mto.lan
-
-[ovirt-node1]
-ovirt-node1.mto.local
-
 
 
 # # Other useful arguments
